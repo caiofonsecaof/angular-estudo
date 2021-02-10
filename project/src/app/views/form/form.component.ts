@@ -12,4 +12,12 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  validarCampos():void{
+    
+  }
+
+  limparCampo():void{
+
+  }
+
 }
