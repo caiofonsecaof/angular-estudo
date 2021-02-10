@@ -1,0 +1,22 @@
+.footer {
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    background: #e2a900;
+    padding-right: 200px;
+    height: 75px;
+    margin:0;
+}
+
+.listfooter ul {
+    display: flex;
+}
+
+.listfooter li {
+    padding: 10px;
+}
+
+.social {
+    height: 40px;
+    padding-top: 10px;
+}

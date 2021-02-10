@@ -1,0 +1,42 @@
+.about_geral {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
+
+.grid_img {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid_img img:hover {
+    transform: scale(1.3);
+}
+
+.grid_img img {
+    width: 170px;
+    height: 170px;
+}
+
+.abt1 {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.abt1 img {
+    margin-left: 10px;
+    clip-path: circle(40% at 40% 50%);
+}
+
+.abt3 {
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.abt3 img {
+    margin-left: 130px;
+    clip-path: circle(40% at 40% 50%);
+}

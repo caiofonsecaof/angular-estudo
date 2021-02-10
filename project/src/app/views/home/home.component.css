@@ -1,0 +1,52 @@
+h1 {
+    margin: 50px 215px 50px 215px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1::after{ 
+    content: ""; 
+    width: 200px;
+    height: 3px;
+    background-color: #000;
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 20px; 
+}
+
+.home1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 215px 15px 215px;
+    padding-top: 40px;
+}
+
+.img1 {
+    clip-path: circle(40% at 40% 50%);
+}
+
+.home2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.part1{
+    margin-left: 20px;
+}
+
+.part1 img {
+    margin-left: 45px;
+}
+
+.part1 h2{
+    text-align: center;
+}
+
+.part1 p {
+    margin: 0;
+    text-align: center;
+}
